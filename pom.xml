@@ -17,13 +17,13 @@
 <distributionManagement>
   <repository>  
     <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://100.24.35.10:8081/repository/maven-releases/</url>
+    <!-- CHANGE HERE by your team jfrog server -->
+    <url>http://3.90.136.10:8082/artifactory/gradle-release-local/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://100.24.35.10:8081/repository/maven-snapshots/</url>
+    <!-- CHANGE HERE by your team jfrog server -->
+    <url>http://3.90.136.10:8082/artifactory/gradle-dev-local/</url>
    </snapshotRepository>
 </distributionManagement>
 
